@@ -1,0 +1,27 @@
+{
+  "name": "grunt-put-packages-in-requirejs-config",
+  "version": "1.0.0",
+  "description": "Put package information into a requirejs config",
+  "main": "tasks/index.js",
+  "scripts": {
+    "report": "nyc report --reporter=lcov",
+    "test": "nyc tap test.js && nyc report"
+  },
+  "keywords": [
+    "grunt",
+    "node_modules"
+  ],
+  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-force-task": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "nyc": "^2.3.0",
+    "rimraf": "^2.4.0",
+    "tap": "^1.2.0"
+  },
+  "dependencies": {
+    "put-packages-in-requirejs-config": "^1.2.0"
+  }
+}
